@@ -1,0 +1,188 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sm0l-tools-mcp"
+version = "0.1.0"
+description = "Bulk MCP tool server exposing the sm0l demo script library as runnable tools."
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [
+  {name = "woflfren"}
+]
+dependencies = [
+  "APScheduler",
+  "Faker",
+  "Flask",
+  "Pillow",
+  "PyMuPDF",
+  "PyYAML",
+  "arrow",
+  "beautifulsoup4",
+  "fastapi",
+  "httpx",
+  "imbox",
+  "joblib",
+  "loguru",
+  "matplotlib",
+  "numba",
+  "numpy",
+  "openai",
+  "openpyxl",
+  "orjson",
+  "pandas",
+  "pdfplumber",
+  "pendulum",
+  "polars",
+  "psutil",
+  "pydantic",
+  "pydeck",
+  "pydub",
+  "pyecharts",
+  "pytesseract",
+  "pywhat",
+  "pywhatkit",
+  "requests",
+  "rich",
+  "scikit-learn",
+  "shapely",
+  "tenacity",
+  "textblob",
+  "toolz",
+  "tqdm",
+  "typer",
+  "urllib3",
+  "watchdog",
+  "youtube-search-python",
+]
+
+[project.optional-dependencies]
+all = [
+  "datashader",
+  "gradio",
+  "holoviews",
+  "playwright",
+  "prefect",
+  "pyppeteer",
+  "selenium",
+  "sentence-transformers",
+  "spacy",
+  "streamlit",
+  "torch",
+]
+
+apps = [
+  "gradio",
+  "streamlit",
+]
+
+audio = [
+  "pydub",
+]
+
+auto = [
+  "APScheduler",
+]
+
+bigviz = [
+  "datashader",
+  "holoviews",
+]
+
+browser = [
+  "playwright",
+  "pyppeteer",
+  "selenium",
+]
+
+data = [
+  "arrow",
+  "numpy",
+  "pandas",
+  "polars",
+  "scikit-learn",
+]
+
+doc = [
+  "PyMuPDF",
+  "openpyxl",
+  "pdfplumber",
+]
+
+embeddings = [
+  "sentence-transformers",
+]
+
+misc = [
+  "Faker",
+  "Pillow",
+  "PyYAML",
+  "imbox",
+  "joblib",
+  "loguru",
+  "numba",
+  "openai",
+  "orjson",
+  "pendulum",
+  "pydantic",
+  "pydub",
+  "pytesseract",
+  "pywhat",
+  "pywhatkit",
+  "rich",
+  "shapely",
+  "tenacity",
+  "toolz",
+  "tqdm",
+  "typer",
+  "youtube-search-python",
+]
+
+nlp = [
+  "textblob",
+]
+
+ocr = [
+  "pytesseract",
+]
+
+spacy = [
+  "spacy",
+]
+
+sys = [
+  "psutil",
+  "watchdog",
+]
+
+torch = [
+  "torch",
+]
+
+viz = [
+  "matplotlib",
+  "numpy",
+  "pandas",
+  "pydeck",
+  "pyecharts",
+]
+
+web = [
+  "Flask",
+  "beautifulsoup4",
+  "fastapi",
+  "httpx",
+  "psutil",
+  "requests",
+  "urllib3",
+]
+
+workflows = [
+  "prefect",
+]
+
+
+[project.scripts]
+sm0l-tools-mcp = "sm0l_tools_mcp.mcp_server:main"

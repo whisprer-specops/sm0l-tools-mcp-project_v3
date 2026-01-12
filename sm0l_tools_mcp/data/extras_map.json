@@ -1,0 +1,108 @@
+{
+  "auto": [
+    "APScheduler"
+  ],
+  "data": [
+    "arrow",
+    "numpy",
+    "pandas",
+    "polars",
+    "scikit-learn"
+  ],
+  "doc": [
+    "PyMuPDF",
+    "openpyxl",
+    "pdfplumber"
+  ],
+  "misc": [
+    "Faker",
+    "Pillow",
+    "PyYAML",
+    "imbox",
+    "joblib",
+    "loguru",
+    "numba",
+    "openai",
+    "orjson",
+    "pendulum",
+    "pydantic",
+    "pydub",
+    "pytesseract",
+    "pywhat",
+    "pywhatkit",
+    "rich",
+    "shapely",
+    "tenacity",
+    "toolz",
+    "tqdm",
+    "typer",
+    "youtube-search-python"
+  ],
+  "nlp": [
+    "textblob"
+  ],
+  "sys": [
+    "psutil",
+    "watchdog"
+  ],
+  "viz": [
+    "matplotlib",
+    "numpy",
+    "pandas",
+    "pydeck",
+    "pyecharts"
+  ],
+  "web": [
+    "Flask",
+    "beautifulsoup4",
+    "fastapi",
+    "httpx",
+    "psutil",
+    "requests",
+    "urllib3"
+  ],
+  "apps": [
+    "gradio",
+    "streamlit"
+  ],
+  "bigviz": [
+    "datashader",
+    "holoviews"
+  ],
+  "browser": [
+    "playwright",
+    "pyppeteer",
+    "selenium"
+  ],
+  "embeddings": [
+    "sentence-transformers"
+  ],
+  "spacy": [
+    "spacy"
+  ],
+  "torch": [
+    "torch"
+  ],
+  "workflows": [
+    "prefect"
+  ],
+  "audio": [
+    "pydub"
+  ],
+  "ocr": [
+    "pytesseract"
+  ],
+  "all": [
+    "datashader",
+    "gradio",
+    "holoviews",
+    "playwright",
+    "prefect",
+    "pyppeteer",
+    "selenium",
+    "sentence-transformers",
+    "spacy",
+    "streamlit",
+    "torch"
+  ]
+}
